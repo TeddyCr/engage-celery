@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-engage-scraper = ">=0.0.26"
+engage-scraper = ">=0.0.28"
 pillow = "*"
 celery = "*"
 redis = "*"

@@ -35,7 +35,7 @@ services:
       - REDIS_HOSTNAME=redis
       - REDIS_PORT=6379
       - REDIS_PASSWORD=somepass
-      - POSTGRES_HOSTNAME=postgres
+      - POSTGRES_HOST=postgres
       - POSTGRES_USER=someuser
       - POSTGRES_PASSWORD=somepass
       - POSTGRES_PORT=5432
@@ -61,7 +61,7 @@ services:
       - REDIS_PORT=6379
       - SCHEDULER=tests
       - TASKS=tests.tasks
-      - POSTGRES_HOSTNAME=postgres
+      - POSTGRES_HOST=postgres
       - POSTGRES_USER=someuser
       - POSTGRES_PASSWORD=somepass
       - POSTGRES_PORT=5432
